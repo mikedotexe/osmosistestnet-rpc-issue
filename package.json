@@ -1,0 +1,19 @@
+{
+  "name": "osmosistestnet-rpc-issue",
+  "version": "0.1.0",
+  "description": "Demonstrating an issue with the testnet RPC endpoint",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node build/index.js"
+  },
+  "author": "Mike Purvis",
+  "license": "MIT",
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.30.0",
+    "@cosmjs/proto-signing": "^0.30.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
